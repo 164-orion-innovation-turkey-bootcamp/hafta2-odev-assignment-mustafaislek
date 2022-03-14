@@ -41,7 +41,6 @@ const ingredients = {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
         let selected = prompt('Tavuk mu kofte mi?').toLowerCase();
-        // console.log(' selected lower', selected);
         // const selected = 'kofte';
         if (selected == 'kofte' || selected == 'köfte') {
           ingredients.meatball--;
